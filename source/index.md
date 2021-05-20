@@ -23,10 +23,10 @@ Mermaid is a library for drawing flow chart, state chart, sequence chart and Gan
 # Results
 
 - The module-level dependency graph of EnglishPal
-  - Code: https://github.com/lqzcf10/lab1/blob/master/source/mermaid.txt
-  - SVG: https://github.com/lqzcf10/lab1/blob/master/source/graphviz.svg
+  - Code: [https://github.com/lqzcf10/lab1/blob/master/source/mermaid.txt]( https://github.com/lqzcf10/lab1/blob/master/source/mermaid.txt)
+  - SVG: [https://github.com/lqzcf10/lab1/blob/master/source/graphviz.svg]( https://github.com/lqzcf10/lab1/blob/master/source/graphviz.svg)
 - The class/function-level dependency graph of EnglishPal
-  - Code: https://github.com/lqzcf10/lab1/blob/master/source/EnglishPalDependency(Graphviz).txt
+  - Code: [https://github.com/lqzcf10/lab1/blob/master/source/EnglishPalDependency(Graphviz).txt]( https://github.com/lqzcf10/lab1/blob/master/source/EnglishPalDependency(Graphviz).txt)
 
 
 
