@@ -10,40 +10,39 @@ Date: 2021/5/20
 Inroduction
 ==================
 
-We want to avoid the Big Ball of Mud antipattern in our software application.So we do the dependency analysis and dependency graph for project EnglishPal.
-
-
+We want to avoid the Big Ball of Mud antipattern in our software application. In this experiment, we do dependency analysis and draw dependency graph about it and analysis the question about the health status of EnglishPal’s current architecture.
 
 # Materials and Methods
 
-EnglishPal is based on python. In this experiment, we do dependency analysis and draw dependency graph about it. We use Snakefood[1] tool to generate module level dependency graph, and use Mermaid tool to draw class / function level dependency graph.
+In this lab, we study the dependency relationships among modules (or classes) in the source code of EnglishPal .We use Snakefood[1] tool to generate module level dependency graph, and use Mermaid tool to draw class / function level dependency graph. 
 
+Graphviz (graph visualization), the abbreviation of graph visualization tool, is an open source tool of Bell Labs. The main purpose can be specific language (DSL) script for visual output, support JPEG, PDF and other output styles. And it is very good cross platform, has supported Linux, MAC, window multi platform, binary installation mode, provides Fedora, Ubuntu, RHEL, Solaris, MacOS, windows and other systems.Using graphviz tool, using script output visual graphical interface, rapid graphical thinking.
 
+Mermaid is a library for drawing flow chart, state chart, sequence chart and Gantt chart. It uses JS for local rendering and is widely integrated into many markdown editors.As a JS rendering library, mermaid generates not a "picture", but a piece of HTML code, so it is much safer.
 
 # Results
 
 - The module-level dependency graph of EnglishPal
-  - Code: [EnglishPalDependency(Graphviz).txt](https://github.com/Blue-ljj/LanLab1-Report-Docs/blob/master/EnglishPalDependency(Graphviz).txt)
-  - PDF: [snakefood.pdf](https://github.com/Blue-ljj/LanLab1-Report-Docs/blob/master/snakefood.pdf)
+  - Code: 
+  - PDF: 
 - The class/function-level dependency graph of EnglishPal
-  - Code: [mermaid.txt](https://github.com/Blue-ljj/LanLab1-Report-Docs/blob/master/mermaid.txt)
+  - Code: 
 
 
 
 # Pros&Cons
 
-- Pros: The project has low complexity and clear framework,so it's easier to maintain the code later.
-- Cons: Hinder technological innovation,and there are still many bugs in the project that need to be improved.
+- Pros:This project framework is clearly structured, easy to analyze and maintain and improves functions properly
+- Cons:Basic functions are fully determined, with low room for further innovation and many places hava to be improved
 
 
 
 # Discussions
 
-The Snakefood tool can analyze dependencies in project code, but only at the module level. Mermaid can plot the dependency of our input into a function level dependency graph.
-
-Through the dependency analysis and the drawing of the dependency graph of EnglishPal, we can see the framework structure of the project more clearly, which provides convenience for the maintenance and update of the code in the future.
-
-
+Using snake food tool, we can analyze the dependencies in project code and generate dependency graph for English pal
+Graphviz (graph visualization) is the abbreviation of graph visualization tool, which is an open source tool of Bell Labs.
+Using graphviz tool to generate dot file, mermaid draws the input dependency into function level dependency graph,
+Through dependency analysis and the drawing of englishpal dependency diagram, we can see the framework structure of the project more clearly and help us understand the question about the health status of EnglishPal‘s current architecture.
 
 # References
 
